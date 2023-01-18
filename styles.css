@@ -1,0 +1,66 @@
+body {
+    background-color: #141414;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: #63A375;
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#login,
+#signup {
+    margin: 25px;
+}
+
+.login,
+.signup {
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-submit,
+.signup-submit {
+    display: flex;
+    justify-content: center;
+    flex-basis: 45%;
+}
+
+.preferences {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    font-size: 20px;
+}
